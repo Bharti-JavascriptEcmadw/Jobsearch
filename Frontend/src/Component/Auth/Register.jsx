@@ -18,7 +18,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:8000/api/v1/reg/register",
+        "https://jobsearch-orpin.vercel.app/register",
         { name, phone, email, role, password },
         {
           headers: {
