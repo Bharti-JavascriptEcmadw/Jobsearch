@@ -19,7 +19,7 @@
       e.preventDefault();
       try {
         const { data } = await axios.post(
-          "http://localhost:8000/api/v1/reg/login",
+          "https://jobsearch-orpin.vercel.app/login",
           { email, password, role },
           {
             withCredentials: true,
