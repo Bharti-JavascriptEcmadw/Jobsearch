@@ -29,7 +29,7 @@ Connectdb();
 import cors from 'cors';
 
 app.use(cors({
-    origin:[process.env.Frontend_URL],
+    origin:[],
     methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH', 'OPTIONS'], // Allow these methods
     credentials:true
 }));
