@@ -29,7 +29,7 @@ Connectdb();
 import cors from 'cors';
 
 app.use(cors({
-    origin:[],
+    origin:[https://jobsearch-z6ld.vercel.app/login],
     methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH', 'OPTIONS'], // Allow these methods
     credentials:true
 }));
